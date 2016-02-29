@@ -1,0 +1,21 @@
+{
+    "name": "vlowe85/PremierLeague",
+    "description": "Premier League PHP API",
+    "license": "MIT",
+    "keywords": ["premier", "league", "football", "soccer", "epl"],
+    "authors": [
+        {
+            "name": "Vincent Lowe",
+            "email": "vince@vlowe.co.uk"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vlowe\\PremierLeague\\": "src"
+        }
+    }
+}
