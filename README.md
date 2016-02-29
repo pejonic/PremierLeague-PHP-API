@@ -50,4 +50,4 @@ You can get team, match and league standings data to be used in your own applica
 
 ![Example usage](https://raw.githubusercontent.com/vlowe85/PremierLeague-PHP-API/master/example.png)
 
-An example of the useage is [provided in this repository](example.php).
+An example of the usage is [provided in this repository](example.php).
