@@ -107,6 +107,11 @@ class PremierLeague {
 			);
 			array_push($teams, $info);
 		}
+		// sort the return array by current standings
+		usort($teams, function($a, $b) {
+		    return $a['standing'] - $b['standing'];
+		});
+		
 		return $teams;
 	}
 
